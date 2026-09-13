@@ -3,7 +3,7 @@
   "name": "abba",
   "short_name": "abba",
   "start_url": "./index.html",
-  "scope": "./",
+  "scope": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",

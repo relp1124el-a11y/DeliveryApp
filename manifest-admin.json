@@ -3,7 +3,7 @@
   "name": "Admin - abba",
   "short_name": "Admin abba",
   "start_url": "./admin.html",
-  "scope": "./",
+  "scope": "./admin.html",
   "display": "standalone",
   "background_color": "#1a1a1b",
   "theme_color": "#1a1a1b",
