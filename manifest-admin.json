@@ -1,12 +1,12 @@
 {
-  "id": "/index.html",
-  "name": "abba",
-  "short_name": "abba",
-  "start_url": "./index.html",
+  "id": "/admin.html",
+  "name": "Admin - abba",
+  "short_name": "Admin abba",
+  "start_url": "./admin.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#1a1a1b",
+  "theme_color": "#1a1a1b",
   "icons": [
     {
       "src": "https://lh3.googleusercontent.com/d/1I7F-vqm1UDCgpwg_nQp8JqHjVUbHZYkP",

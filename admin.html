@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Admin - abba</title>
+
+  <!-- Manifiesto PWA propio del panel: distinto "id" y start_url que el
+       cliente, para que Chrome los trate como dos apps instalables separadas -->
+  <link rel="manifest" href="manifest-admin.json">
+  <meta name="theme-color" content="#1a1a1b">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Admin abba">
+
+  <link rel="icon" href="https://lh3.googleusercontent.com/d/1I7F-vqm1UDCgpwg_nQp8JqHjVUbHZYkP">
+  <link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/d/1I7F-vqm1UDCgpwg_nQp8JqHjVUbHZYkP">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #1a1a1b;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Mismo deployment de Apps Script, con ?v=admin para cargar el panel -->
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbxC5SbMVXTffVz8z-SSFYpSDKRst23KHb4Tow5-O_4BlwFGAyReHQufGO37Ro8AoyOk/exec?v=admin"
+    allow="geolocation; microphone; camera">
+  </iframe>
+
+</body>
+</html>
