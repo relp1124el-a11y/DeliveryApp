@@ -1,0 +1,21 @@
+{
+  "name": "abba",
+  "short_name": "abba",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/1tkRN002/Logo-moderno-de-app-de-comida.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.postimg.cc/1tkRN002/Logo-moderno-de-app-de-comida.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

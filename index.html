@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>Dom_Apps</title>
+  <title>abba</title>
+
+  <!-- Manifiesto PWA: aquí SÍ funciona (documento de nivel superior real,
+       sin el sandbox de Google Apps Script) -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="abba">
+
+  <!-- Íconos: el manifest.json cubre Android/Chrome; estos cubren iOS/Safari
+       y la pestaña del navegador -->
+  <link rel="icon" href="https://i.postimg.cc/1tkRN002/Logo-moderno-de-app-de-comida.png">
+  <link rel="apple-touch-icon" href="https://i.postimg.cc/1tkRN002/Logo-moderno-de-app-de-comida.png">
+
   <style>
-    /* Forzamos a la pantalla a ocupar el 100% real del celular sin scrolls artificiales */
     html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
-      overflow: hidden; /* Elimina el scroll del contenedor */
+      overflow: hidden;
       background-color: #ffffff;
     }
-    /* Tu WebApp se estirará de forma nativa ocupando toda la pantalla */
     iframe {
       width: 100%;
       height: 100%;
@@ -25,12 +38,13 @@
 </head>
 <body>
 
-  <!--  -->
-  <iframe 
-    src="https://script.google.com/macros/s/AKfycbxC5SbMVXTffVz8z-SSFYpSDKRst23KHb4Tow5-O_4BlwFGAyReHQufGO37Ro8AoyOk/exec" 
+  <!-- URL confirmada de tu implementación de Apps Script que funciona.
+       Si en el futuro creas una implementación nueva con otro ID, reemplaza
+       esta URL por la nueva. -->
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbxC5SbMVXTffVz8z-SSFYpSDKRst23KHb4Tow5-O_4BlwFGAyReHQufGO37Ro8AoyOk/exec"
     allow="geolocation; microphone; camera">
   </iframe>
 
 </body>
 </html>
-
